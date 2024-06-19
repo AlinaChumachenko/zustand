@@ -23,5 +23,9 @@ function useCounter() {
 export default function Counter() {
   const count = useCounter();
 
-  return <h1>Seconds passed: {count}</h1>;
+  return (
+    <h1 className="text-5xl text-center mt-8 font-bold text-purple-800">
+      Seconds passed: {count}
+    </h1>
+  );
 }
