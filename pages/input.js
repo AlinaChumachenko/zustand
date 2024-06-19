@@ -14,14 +14,14 @@ function calculateBirthYear(age) {
 
 const useInputStore = create((set) => ({
   title: "",
-  setTitle: (newTitle) => set({ title: newTitle }),
   text: "",
-  setText: (newText) => set({ text: newText }),
   number: "",
-  setNumber: (newNumber) => set({ number: newNumber }),
   totalNumber: "",
-  setTotalNumber: (newTotalNumber) => set({ totalNumber: newTotalNumber }),
   age: 0,
+  setTitle: (newTitle) => set({ title: newTitle }),
+  setText: (newText) => set({ text: newText }),
+  setNumber: (newNumber) => set({ number: newNumber }),
+  setTotalNumber: (newTotalNumber) => set({ totalNumber: newTotalNumber }),
   setAge: (newAge) => set({ age: newAge }),
 }));
 
